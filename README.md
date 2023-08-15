@@ -1,3 +1,10 @@
+# Minor modifications to Potion
+Added support for "net7.0-windows" and loaded dlls for windows specific features such as windows forms.
+
+Works for our system on windows, not tested elsewhere.
+
+Windows forms is working including NotifyIcon and MessageBox classes. Nothing else tested.
+
 # Potion
 
 A [clojure-clr](https://github.com/clojure/clojure-clr) tool for .NET 3.1+
