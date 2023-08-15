@@ -1,9 +1,9 @@
-# Minor modifications to Potion
+# Minor Modifications to Potion
 Added support for "net7.0-windows" and loaded dlls for windows specific features such as windows forms.
 
 Works for our system on windows, not tested elsewhere.
 
-Windows forms is working including NotifyIcon and MessageBox classes. Nothing else tested.
+Windows forms is working including NotifyIcon and MessageBox classes. Nothing else tested, but in theory other similar windows desktop classes will work as well.
 
 # Potion
 
