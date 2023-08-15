@@ -40,7 +40,7 @@ namespace Tool
 
             LoadAllAssembliesInDirectory(coreAppAssemblyDirectory);
             LoadAllAssembliesInDirectory(aspNetCoreAppAssemblyDirectory);
-            LoadAllAssembliesInDirectory(winDesktopAppAssemblyDirectory);
+            try { LoadAllAssembliesInDirectory(winDesktopAppAssemblyDirectory); } catch (Exception) { Console.WriteLine("Windows Desktop DLLs not loaded");}
             DependencyLoaderCsProj.LoadDependenciesFromCsproj();
         }
 
